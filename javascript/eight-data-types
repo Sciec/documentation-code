@@ -1,0 +1,9 @@
+N - null
+N - number
+B - boolean
+B - bigint
+S - string
+S - symbol
+U - undefined
+O - object
+
