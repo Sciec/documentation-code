@@ -37,7 +37,7 @@ DATA DEFINITION LANGUAGE ( DDL )
 
 <br />
 
-> SQL CREATE STATEMENT  
+### `SQL CREATE STATEMENT`
 
 _SYNTAX_ :   
 ```
@@ -57,7 +57,7 @@ Address Varchar);
 
 <br />
 
-> SQL ALTER STATEMENT  
+### `SQL ALTER STATEMENT`  
 
 _SYNTAX_ :  
 ```
