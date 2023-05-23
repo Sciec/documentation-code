@@ -1,17 +1,18 @@
 ## My SQL ( Sturctured query language )
-* Advantage  
+> **Advantage**  
 <br />
---> High speed and Fast query processing
---> Open source
---> Allows multiple views
+
+--> High speed and Fast query processing     
+--> Open source   
+--> Allows multiple views    
 --> Efficient and portable  
 
 <br />  
 
-* Disadvantage  
+> **Disadvantage**    
 <br />
---> High operation cost  
-> for commercial websites  
+
+--> High operation cost ( _commercial websites, for example_ )  
 --> High maintenance  
 
 ### What is SQL SYNTAX ?    
@@ -22,8 +23,55 @@
 
 ## SQL Datatypes  
 
-### * NUMERIC- `INT`  `BIT`  `FLOAT`  `BOOLEAN`
-### * STRING DATA- `CHAR`  `VARCHAR`  `TEXT`  
-### * DATETIME- `DATE`  `DATETIME`  `TIMESTAMP`  
+* NUMERIC- `INT`  `BIT`  `FLOAT`  `BOOLEAN`
+* STRING DATA- `CHAR`  `VARCHAR`  `TEXT`  
+* DATETIME- `DATE`  `DATETIME`  `TIMESTAMP`  
+
+## SQL COMMANDS  
+
+DATA DEFINITION LANGUAGE ( DDL )   
+* CREATE  
+* ALTER
+* DROP
+* TRUNCATE    
+
+<br />
+
+> SQL CREATE STATEMENT  
+
+_SYNTAX_ :   
+```
+Create table table_name (
+"column1" "data type", 
+"column2" "data type",
+"column_3" "data type");
+```
+
+for example-  
+`
+Create Table Employee(
+EMP_ID int,
+Name varchar,
+Address Varchar);
+`  
+
+<br />
+
+> SQL ALTER STATEMENT  
+
+_SYNTAX_ :  
+```
+ALTER table table_name
+ADD (
+"column_name1" "data type",
+"column_name2" "data type",
+"column_name3" "data type");
+```  
+  
+for example-  
+`ALTER TABLE Employee ` 
+`ADD (DOB Date); `
+
+
 
 
